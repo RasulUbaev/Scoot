@@ -17,6 +17,7 @@
 
 @mixin btn {
     background: #FCB72B;
+    padding: 14px 38px;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -37,4 +38,13 @@
     line-height: 25px;
     text-align: center;
     color: #FCB72B;
+}
+
+@mixin subtitle {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    color: $text-color-FFF;
 }
