@@ -557,4 +557,10 @@ img {
     right: inherit;
     top: inherit;
   }
+}
+@media only screen and (max-width: 375px) {
+  .hero__container h1 {
+    width: 85%;
+    height: 130px;
+  }
 }/*# sourceMappingURL=main.css.map */
