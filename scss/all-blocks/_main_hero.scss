@@ -142,6 +142,19 @@
 
 }
 
+@media only screen and (max-width: 470px){
+    .hero {
+
+        &__container {
+
+            h1 {
+                width: 65%;
+                height: 130px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 375px){
     .hero {
 
