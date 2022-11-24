@@ -387,6 +387,24 @@ img {
     position: inherit;
   }
 }
+@media only screen and (max-width: 576px) {
+  .header__nav {
+    justify-content: inherit;
+    padding: 0 32px;
+  }
+  .header__nav__burger {
+    display: block;
+  }
+  .header__nav__logo {
+    margin: auto;
+  }
+  .header__nav__items {
+    display: none;
+  }
+  .header__nav__btn {
+    display: none;
+  }
+}
 @media only screen and (max-width: 375px) {
   .header__nav {
     justify-content: inherit;

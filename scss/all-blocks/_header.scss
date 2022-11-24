@@ -50,6 +50,30 @@
     }
 }
 
+@media only screen and (max-width: 576px) {
+    .header {
+        &__nav {
+            justify-content: inherit;
+            padding: 0 32px;
+            &__burger {
+                display: block;
+            }
+
+            &__logo {
+                margin: auto;
+            }
+
+            &__items {
+                display: none;
+            }
+
+            &__btn {
+                display: none;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .header {
         &__nav {
