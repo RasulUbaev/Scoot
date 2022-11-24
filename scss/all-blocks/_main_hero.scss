@@ -155,6 +155,19 @@
     }
 }
 
+@media only screen and (max-width: 400px){
+    .hero {
+
+        &__container {
+
+            h1 {
+                width: 80%;
+                height: 130px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 375px){
     .hero {
 
